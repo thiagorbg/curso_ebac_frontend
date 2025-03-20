@@ -20,7 +20,7 @@ header h1, section h2 {
 body input, textarea {
     font-family: "Roboto", sans-serif;
 }
-
+/*fontes em cima*/
 header nav li {
     display: inline;
     margin-left: 16px;
@@ -51,6 +51,8 @@ section .container {
 .brands-list li{
     display: inline;
 }
+/*tudo feito*/
+
 section .container {
     align-items: flex-start;
 }
