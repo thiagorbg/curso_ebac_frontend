@@ -77,3 +77,9 @@ button {
     const numero10 = document.getElementById('numero1')
     const numero20 = document.getElementById('numero2')
     */
+    footer {
+        text-align:center;
+        margin-top: 50px;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.5);
+    }
