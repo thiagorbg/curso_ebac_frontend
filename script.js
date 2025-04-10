@@ -18,4 +18,5 @@ form.addEventListener('submit', function(e){
     
         seuNome.value = '';
         sueNumero.value = '';
+
 })

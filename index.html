@@ -3,30 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Agenda de contatos</title>
+    <title>jquery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1> Agenda de contatos</h1>
-        </header>
-        <form id="form">
-            <input type="text" id="nome" required placeholder=" Digite o seu nome...">
-            <input type="tel" id="numero" required placeholder=" Digite o seu numero...">
+        <form >
+            <h1>Lista de tarefas</h1>
+            <input type="text" id="valor" placeholder="Nome da tarefa...">
             <button type="submit">Cadastrar</button>
+            <div class="li">
+                <ul id="riscado">
+                    
+                </ul>
+            </div>
         </form>
-        <table cellspancing="0">
-            <thead>
-                <tr>
-                    <th>Seu nome</th>
-                    <th>Seu Telefone</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
     </div>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="sscript.js"></script>
 </body>
 </html>
