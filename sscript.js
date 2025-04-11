@@ -1,23 +1,23 @@
 $('form').on('submit',function(e){
     e.preventDefault(e);
     const  novoItem = $('<li></li>')
-    const oinput = $('#valor').val();
+    const oinput = $('#valor').val().trim();
     
-    $(` <a>${oinput}</a>`).appendTo(novoItem)
+    $(` <li>${oinput}</li>`).appendTo(novoItem)
 
     
     $(novoItem).appendTo('ul')
-    $('#valor').val('');
+    $('#valor').val('').trim();
     
 })
-
-const valul = $('#riscado').val();
-
-$('#riscado').click(function() {
-    $(this).css('text-decoration', 'line-through');
-
+$('ul').on('click','li',function() {
+    $(this).toggleClass('riscado');
     
-    $('#riscado').val('text-decoration', 'line-through none');
-
-
+    
 });
+
+
+
+
+
+/*const valul = $('#riscado').val();*/

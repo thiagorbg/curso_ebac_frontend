@@ -64,6 +64,6 @@ button:hover  {
     width: 100%;
     cursor: pointer;
 }
-.li , #riscado {
-    text-decoration: line-through none;
+.riscado {
+    text-decoration: line-through ;
 }
