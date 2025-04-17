@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .containerflex {
+    max-width: 1024px;
+    width: 100%;
+    
+    
+}
+body {
+    background-image: url(https://t2.tudocdn.net/388054?w=1920);
+    background-size:cover ;
+    background-position: center;
+    min-height: 100vh;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-left: 67px;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+nav li {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    padding: 20px 60px;
+    display: none;
+}
+.containerflex  {
+    background-color: rgb(124, 124, 179);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    padding-right: 80px;
+    color: antiquewhite;
+
+    
+}
+header > .container {
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menuHambur {
+    width: 32px;
+    cursor: pointer;
+}
+.menuHambur span {
+    color: #fff;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+header {
+    background-color: rgb(184, 189, 201);
+}
+/*tudo o header*/
+
+
+/*parte da seçaõ do sobre*/
+
+#carrosel img {
+    height: 200px;
+    width: 900px;
+    border-bottom: #161342 solid 50px;
+    border-radius: 8px;
+}
+
+.containerFlex div {
+    padding-left: 20px;
+}
+
+.container img {
+    height: 250px;
+    
+}
+
+#sobreLoja {
+    width: 100%;
+    
+    
+    
+}
+.containerFlex {
+    display: flex;
+    justify-content: center;
+    
+}
+section {
+    padding: 48px 0;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.sobre  {
+    display: block;
+    width: 30%;
+    backdrop-filter: blur(20px);
+    border: solid black 2px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #d4c8c8;
+
+}
+.sobre h2 {
+    padding-bottom: 8px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(9, 9, 41);
+}
+.sobre p {
+    font-size: 14px;
+}
+#contato {
+    display: block;
+    max-height: 1000px;
+}
+
+.seção {
+    margin-bottom: 16px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+}
+
+form input ,
+form textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    resize: none; /*aqui não deixa o usuario usar ou mexer no layout da texterarea*/
+    
+}
+.contro {
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #161644 4px;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+}
+
+.contro h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+form button {
+    width: 50%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: rgb(42, 133, 42);
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: rgb(6, 112, 6);
+}
+
+.rodape {
+    background-color: #161342;
+}
+
+footer p {
+    padding: 20px 0 ;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}

@@ -10,7 +10,7 @@ $('form').on('submit',function(e){
     $('#valor').val('').trim();
     
 })
-$('ul').on('click','li',function() {
+$('ul').on('click','li',function() { /*nessa primeira linha fala quando clicar no li dentro do ul faça*/
     $(this).toggleClass('riscado');
     
     
@@ -20,4 +20,5 @@ $('ul').on('click','li',function() {
 
 
 
-/*const valul = $('#riscado').val();*/
+/*text-decoration: line-through ;
+} evendo de clicar e marcar como concluir de lista de tarefas*/
