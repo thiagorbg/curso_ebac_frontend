@@ -97,15 +97,46 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./ubh.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
-    <script src="./js/messages_pt_PT.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
     <script>
-        
-        /*$(document).ready(function(){
-            $('#carrosel').slick({
-                autoplay:true
-                
-            })
-        })*/
+        $('form').validate({
+            rules: {
+                nome: {
+                    required: true
+                },
+                email: {
+                    required: true
+                },
+                telefone: {
+                    required: true
+                },
+            },
+            messages: {
+                nome: 'por favor,insira o seu nome'
+            },
+            submitHandler: function(form) {
+                console.log(form)
+            },
+            invalidHandler: function(evento,validador){
+                let camposIn = validador.numberOfInvalids();
+                if(camposIn) {
+                    alert(` Existem ${camposIn} campos incorretos ou não digitados corretamentes`)
+                }
+            }
+        })
+        $('form').on('submit',function(e){
+            e.preventDefault(e);
+            const valorf = $('#nome').val().trim()
+            const valorEmail = $('#email').val().trim()
+            const valorTel = $('#telefone').val().trim()
+            const valorTex = $('#opi').val().trim()
+
+            $('#nome').val('')
+            $('#email').val('')
+            $('#telefone').val('')
+            $('#opi').val('')
+        })
     </script>
 </body>
 </html>

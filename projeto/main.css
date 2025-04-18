@@ -163,6 +163,7 @@ form textarea {
     padding: 8px;
     border-radius: 5px;
     outline: none;
+    font-size: 13px;
     border: none;
     resize: none; /*aqui não deixa o usuario usar ou mexer no layout da texterarea*/
     

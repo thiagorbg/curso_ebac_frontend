@@ -27,6 +27,7 @@ $(document).ready(function(){
             }
         },
         messages: {
+            nome: 'porfavor , insira o seu nome'
 
         }
     })
